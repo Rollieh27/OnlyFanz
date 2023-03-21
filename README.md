@@ -21,7 +21,7 @@ The Largest Fanbase on the Internet
 TBD
 
 ## Technologies ##
-HTML, CSS, Javascript, Sequelize, MYSQL, Heroku
+HTML, CSS, Javascript, Sequelize, MYSQL, Heroku, Handlebars.js, VSCode, 
 
 ## Challenges ##
 TBD
