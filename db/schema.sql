@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS OnlyFanz_db;
+CREATE DATABASE OnlyFanz_db;
