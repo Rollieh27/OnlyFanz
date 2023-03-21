@@ -1,5 +1,5 @@
 {
-  "name": "crowd-funding",
+  "name": "onlyfanz",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -23,6 +23,6 @@
   },
   "devDependencies": {
     "eslint": "^7.12.1",
-    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-prettier": "^6.15.0"
   }
 }
