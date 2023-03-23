@@ -1,24 +1,85 @@
-<!-- Loop over each object in the projects array -->
-{{#each projects as |project| }}
-<div class="row mb-4 project">
-  <div class="col-md-5">
-    <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      {{{get_emoji}}}
-      <a href="/project/{{project.id}}">{{project.name}}</a>
-    </h2>
-    <p>
-      <span for="img" aria-label="money">💲</span>
-      <!-- Pass needed_funding value to the helper function -->
-      <span class="dollar-amount">{{format_amount project.needed_funding}}</span>
-      needed!
-    </p>
-    <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{project.description}}
-    </p>
-  </div>
-</div>
-{{/each}}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <title>Chad's Portfolio!</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio!</h1>
+        <nav>
+          <ul>
+            <button class="nav-buttons">
+              About Me
+            <button class="nav-buttons">
+              Projects
+            <button class="nav-buttons">
+              Contact Me     
+          </ul>
+        </nav>
+      </header>
+      
+
+  <main>
+    <section class="About-Me">
+    <header> About Me </header>
+      <div class="Title.Logo.front"> 
+        <h1> </h1></ha>>Coming Soon</p>
+    <img src="./assets/images/Coming Soon.JPG"
+        ></section>
+      </main>
+
+      <main>
+        <section class="card">
+          <header>Project 1</header>
+          <img src="./assets/images/02-hero-bg.jpg" alt="camera" />
+          <p>TBD</p>
+        </section>
+        <section class="card">
+          <header>Project 2</header>
+          <img src="./assets/images/02-portfolio-1.jpg" alt="tablet" />
+          <p>TBD and better</p>
+        </section>
+        <section class="card">
+          <header>Project 3</header>
+          <img src="./assets/images/02-portfolio-2.jpg" alt="toilet paper" />
+          <p>TBD</p>
+        </section>
+        <section class="card">
+          <header>Project 4</header>
+          <img src="./assets/images/02-portfolio-3.jpg" alt="wooden spoons" />
+          <p>TBD</p>
+        </section><section class="card">
+          <header>Project 5</header>
+          <img src="./assets/images/02-hero-bg.jpg" alt="camera" />
+          <p>TBD</p>
+        </section>
+        <section class="card">
+          <header>Project 6</header>
+          <img src="./assets/images/02-portfolio-1.jpg" alt="tablet" />
+          <p>TBD and better</p>
+        </section>
+        <section class="card">
+          <header>Project 7</header>
+          <img src="./assets/images/02-portfolio-2.jpg" alt="toilet paper" />
+          <p>TBD</p>
+        </section>
+        <section class="card">
+          <header>Project 8</header>
+          <img src="./assets/images/02-portfolio-3.jpg" alt="wooden spoons" />
+          <p>TBD</p>
+        </section>
+      </main>
+
+  <main>
+    <section class="Contact-Me">
+      <header> Contact </header>
+      <img src="./assets/images/Under Construction.png"
+    ></section>
+  </main>
+</body>
+
+</html>
