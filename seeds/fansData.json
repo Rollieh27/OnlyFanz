@@ -1,73 +1,128 @@
 [
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Floor Fanz",
+    "Product Name": "Lasko Adjustable Height 57 in. 4-Speed Oscillating Pedestal Fan",
+    "Description": "The large 20 in. performance blade on this oscillating pedestal fan from Lasko makes it a great choice for cooling large rooms and spaces. A multi-function remote adds convenience and the streamlined metal grill makes it an attractive addition to your existing decor. It also features 4 fan speeds, 7-hour timer, multi-position tilt-back fan head, widespread oscillation and adjustable height for ultimate airflow customization.",
+    "Cost": 75.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Floor Fanz",
+    "Product Name": "Vornado V-Fan Pedestal Fan",
+    "Description": "Petite yet powerful, our Vornado V-Fan Pedestal Fan offers a cool breeze with classic style. Originally released in 1945, the Vornado Fan challenged how a fan should look and function. Metal construction and a unique combination of power, aerodynamics, and style make it a design icon.",
+    "Cost": 240.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Floor Fanz",
+    "Product Name": "Honeywell Double Blade 16-inch Pedestal Fan",
+    "Description": "Powerful and quiet cooling: This fan features double blade configuration with 3 speed settings and oscillation for wide area cooling in medium to large rooms; it features easy to use electronic controls including an auto off timer as well as a remote control.",
+    "Cost": 69.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Ceiling Fanz",
+    "Product Name": "Portage Bay 50251 Hugger 52-inch Matte Black West Hill Ceiling Fan",
+    "Description": "This Portage Bay indoor ceiling fan uses this low-profile 52 inch hugger style ceiling fan for flush-mount installations where ceiling height is of concern. With a high-performance motor for powerful, yet quiet operation this indoor ceiling fan incldues a reversible motor for summer and winter mode.",
+    "Cost": 74.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Ceiling Fanz",
+    "Product Name": "Hunter Cassius Ceiling Fan with Pull Chain Control",
+    "Description": "The Hunter Cassius rustic ceiling fan with mass appeal will fit flawlessly in your home's modern interior design. The beautiful, clean finish options work together with the high contrast of angles throughout the design to create a look that will keep your space looking current and inspired. This adjustable mount fan comes with three-position mounting system that allows for standard, low, or angled mounting. The Hunter Cassius fan features 13-degree blade pitch optimized to ensure ideal air movement and peak performance.",
+    "Cost": 109.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Ceiling Fanz",
+    "Product Name": "Roboto Smart Indoor and Outdoor 3-Blade Ceiling Fan",
+    "Description": "This Modern Forms Smart Fan includes a Bluetooth enabled remote control with magnetic wall cradle and can be paired with an unlimited amount of Modern Forms Smart Fans within range, operating from up to 100-feet away.",
+    "Cost": 274.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Desk Fanz",
+    "Product Name": "Vornado Pivot Personal Air Circulator Fan",
+    "Description": "The Pivot is the newest addition to the Vornado line of personal circulators. Designed with a nod to our roots in aviation, the Pivot looks something akin to a stylized jet engine. At 6-inches tall, the Pivot is the perfect size to adorn a desk or nightstand and striking enough to command some serious envy. With 3 speed manual controls and a pivoting axis to direct the air where you need it, you can easily keep cool and comfortable in style.",
+    "Cost": 22.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Desk Fanz",
+    "Product Name": "Sharper Image Personal Desk Fan",
+    "Description": "Stay cool at your desk with this Sharper Image USB fan. The soft blades quietly deliver impressive airflow, while the simple touch controls make it easy to switch between two speed settings. This Sharper Image USB fan draws power from computers and power banks and includes a wall adapter for plugging into outlets.",
+    "Cost": 19.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Desk Fanz",
+    "Product Name": "Woozoo Compact Personal Oscillating Air Circulator Fan",
+    "Description": "Maximize air flow in your house, office, or dorm with this WOOZOO remote controlled fan. The powerful yet compact unit comes with a remote to let you control your desired settings from across the room. Five speed settings let you adjust air flow to your desired strength, and optional natural breeze setting imitates the feeling of the outdoors. The whole room fan oscillates left and right, with six vertical tilt settings.",
+    "Cost": 69.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Tower Fanz",
+    "Product Name": "OmniBreeze Premium Tower Fan",
+    "Description": "Introducing the OmniBreeze Premium Tower Fan! The unique Internal Oscillation structure provides a more stable use experience. Lower Noise, Better Sleep: This powerful yet silent tower fan brings comforting, cool breeze in an ultra-quiet way, built-in timer can be set from 1 to 12 hours for a good night sleep or a cool nap. The smart tower design takes up far less space than other fans.",
+    "Cost": 129.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Tower Fanz",
+    "Product Name": "Dyson Pure Cool TP01 purifying fan",
+    "Description": "Air Multiplier™ purifier fan technology projects a powerful stream of smooth, uninterrupted, purified air. Cooling tower fan when you need it.",
+    "Cost": 399.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Tower Fanz",
+    "Product Name": "Lasko Portable Electric 42-inch Oscillating Tower Fan",
+    "Description": "Power you can feel, The 42-inch Lasko Wind Curve Tower Household Fan produces air flow at 1143 ft./min to keep you cool all day and night; With 3 adjustable speeds and a remote control, this tower fan is perfect for large rooms, bedrooms, and offices.",
+    "Cost": 89.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Window Fanz",
+    "Product Name": "Vornado TRANSOM Window Fan with 4 Speeds",
+    "Description": "Transom is the result of a complete re-imagining of what a window fan should be. The air chamber abundantly draws fresh air from the outside in — or reverses electronically to exhaust stale air out. Powerful airflow circulation and comfort at half the height of conventional window fans, Transom is easy to install, blends elegantly into the space and preserves your view. Transom seals off windows 26-inches to 40-inches wide with the patented Soft-fit System that provides a sleek, satisfying and snug fit from end to end, without having to remove your screen.",
+    "Cost": 99.99
   },
   {
-    "Product Name": "",
-    "description": "",
-    "Cost": 5000
+    "Category": "Window Fanz",
+    "Product Name": "Amazon Basics Window Fan with Manual Controls",
+    "Description": "This window fan has two fan heads with 9-inch bblades, and cools small to medium rooms with 3 speed settings. Reversible airflow blades can alternate between standard fan and exhaust.",
+    "Cost": 47.99
+  },
+  {
+    "Category": "Window Fanz",
+    "Product Name": "Sharper Image PORTAL Window Fan",
+    "Description": "Sharper Image creates cutting edge products - so when we set out to create a window fan, we did our research and then rewrote the formula. The result was a mere 6.12-inch tall, cleverly enough to be seamlessly installed in windows up to 38-inches wide using an innovative modular block system. In today's world full of ugly, repetitive window fans, Portal is a window fan that lives up to the Sharper Image vision - to bring products today inspired by Tomorrow's Tomorrow.",
+    "Cost": 99.99
+  },
+  {
+    "Category": "Box Fanz",
+    "Product Name": "Mainstays 9 inch Personal Box Fan",
+    "Description": "The portable box fan is ideal in a number of situations. It's small but powerful, so to bring the targeted cooling. Its whisper quiet operation makes perfect for tabletop use for bedroom, kitchen, living room, office and many other applications. The box fan has a lightweight and compact design, weighting around 3 lbs and it features with the built-in carry handle for convenient transport from surface to surface that allows you to take it wherever you want. Available in white, black, teal, and purple.",
+    "Cost": 12.99
+  },
+  {
+    "Category": "Box Fanz",
+    "Product Name": "Lasko 20-inch Dècor Colors Air Circulating Box Fan",
+    "Description": "Lasko's Dècor Colors air circulating box fans feature 3 quiet speeds for high volume air movement because more air power equals more comfort. The slim design allows for easy placement as a window fan in the bedroom, a floor fan in the living room, an exhaust fan in the garage, or anywhere you need some additional airflow. Plus, with Save-Smart® energy efficiency, it costs less than 2¢ per hour to operate!",
+    "Cost": 39.99
+  },
+  {
+    "Category": "Box Fanz",
+    "Product Name": "Blueair Blue Pure Fan Auto",
+    "Description": "Designed in Sweden for expert removal of airborne allergens. Unlike a standard fan, Pure Fan Auto cleans the air of pollutants as it cools. Customizable to fit your needs, the fan features a colorful fabric pre-filter and Auto mode setting to auto-adjust to your real-time room conditions. Pure Fan Auto delivers more clean air than Dyson purifying fans¹ and removes over 99% of airborne allergens like dust and pollen with Blueair's signature HEPASilent™ filtration technology. The unique combination of electrostatic and mechanical filtration effectively removes airborne allergens like dust, pollen, and pet dander with low noise and energy consumption.",
+    "Cost": 299.99
+  },
+  {
+    "Category": "Mounted Fanz",
+    "Product Name": "Hampton Bay 24 in. 3-Speed Oscillating High Velocity Black Wall Mount Fan with 3 Blades",
+    "Description": "The Hampton Bay 24 in. oscillating wall mount fan is the perfect solution to circulate air in your garage or warehouse. The powerful 3-speed motor moves up to 9,100 CFM to help move air where it is needed most. This fan is designed to be mounted on the wall to free up floor space.",
+    "Cost": 229.99
+  },
+  {
+    "Category": "Mounted Fanz",
+    "Product Name": "Hurricane® Supreme 16-inch Oscillating Wall Mount Fan",
+    "Description": "The Hurricane® 16 in Oscillating Wall Mount Fan has 3 speeds (high, medium and low) controlled by a dial or pull cords. Ideal for homes, greenhouses, garages, workshops and other areas with limited floor space. It has 90° oscillation or can be locked in a non-oscillating position. Also features a multi-position tilt.",
+    "Cost": 71.99
+  },
+  {
+    "Category": "Mounted Fanz",
+    "Product Name": "Lasko 16 in. 3-Speed Oscillating Wall Mount Fan with Remote Control",
+    "Description": "The Lasko M16950 is a 16 in. oscillating wall-mount fan that is a real problem-solver. It can be quickly installed with the included mounting hardware and can be controlled by either the multi-function remote control or electronic controls, making higher installations practical. It offers a space saving way to cool a room or office.",
+    "Cost": 45.99
   }
-  
 ]
