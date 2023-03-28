@@ -1,53 +1,65 @@
 <main>
-  <section class="About-Me">
-    <header> About Me </header>
-    <div class="Title.Logo.front">
-      <h1> </h1>
-      </ha>Coming Soon</p>
-      <img src="./assets/images/Coming Soon.JPG">
-  </section>
+  <div id="carousel" class="carousel">
+  <input class="carousel-active" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden checked="checked">
+  <div class="carousel-item">
+    <div class="carousel-controls" aria-hidden="true">
+      <label for="carousel-3" class="carousel-control prev" title="Prev">«</label>
+      <label for="carousel-2" class="carousel-control next" title="Next">»</label>
+    </div>
+    <img src="/Assets/Images/lasko-tower-fan.jpg" alt="First slide">
+  </div>
+
+  <input class="carousel-active" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden>
+  <div class="carousel-item">
+    <div class="carousel-controls" aria-hidden="true">
+      <label for="carousel-1" class="carousel-control prev" title="Prev">«</label>
+      <label for="carousel-3" class="carousel-control next" title="Next">»</label>
+    </div>
+    <img src="http://via.placeholder.com/1200x300/777/000/" alt="Blank image">
+   
+  </div>
+
+  <input class="carousel-active" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden>
+  <div class="carousel-item">
+    <div class="carousel-controls" aria-hidden="true">
+      <label for="carousel-2" class="carousel-control prev" title="Prev">«</label>
+      <label for="carousel-1" class="carousel-control next" title="Next">»</label>
+    </div>
+    <img src="http://via.placeholder.com/1200x300/ccc/077/" alt="Third slide">
+  </div>
+
+  <ol class="carousel-indicators" aria-label="Carousel navigation" aria-hidden="true">
+    <li>
+      <label for="carousel-1" class="carousel-indicator" title="Jump to carousel item #1">●</label>
+    </li>
+    <li>
+      <label for="carousel-2" class="carousel-indicator" title="Jump to carousel item #2">●</label>
+    </li>
+    <li>
+      <label for="carousel-3" class="carousel-indicator" title="Jump to carousel item #3">●</label>
+    </li>
+  </ol>
+</div>
 </main>
 <main>
   <section class="card">
     <header>Project 1</header>
-    <img src="/Assets/" alt="camera" />
-    <p>TBD</p>
+      <img src="/Assets/Images/lasko-floor-fan.jpg" alt="Lasko Fan" />
+       <button class="profile-button" data-testid="button" type="button"><img
+                     src=""
+                     alt="english lagnuage selector" class="add-to-cart-button"></img></button>
   </section>
-  <section class="card">
-    <header>Project 2</header>
-    <img src="./assets/images/02-portfolio-1.jpg" alt="tablet" />
-    <p>TBD and better</p>
-  </section>
-  <section class="card">
-    <header>Project 3</header>
-    <img src="./assets/images/02-portfolio-2.jpg" alt="toilet paper" />
-    <p>TBD</p>
-  </section>
-  <section class="card">
-    <header>Project 4</header>
-    <img src="./assets/images/02-portfolio-3.jpg" alt="wooden spoons" />
-    <p>TBD</p>
-  </section>
-  <section class="card">
-    <header>Project 5</header>
-    <img src="./assets/images/02-hero-bg.jpg" alt="camera" />
-    <p>TBD</p>
-  </section>
-  <section class="card">
-    <header>Project 6</header>
-    <img src="./assets/images/02-portfolio-1.jpg" alt="tablet" />
-    <p>TBD and better</p>
-  </section>
-  <section class="card">
-    <header>Project 7</header>
-    <img src="./assets/images/02-portfolio-2.jpg" alt="toilet paper" />
-    <p>TBD</p>
-  </section>
-  <section class="card">
-    <header>Project 8</header>
-    <img src="./assets/images/02-portfolio-3.jpg" alt="wooden spoons" />
-    <p>TBD</p>
-  </section>
+
+{{!-- Handlebars to loop through the product database --}}
+ {{#each products as |product| }}
+<section class="card">
+  <header>{{product.name}}</header>
+  <img src="/OnlyFanz/public/Assets/Images/{{product.imagePath}}" alt="tablet" />
+  <p>{{product.description}}</p>
+  <a href="{{product.url}}">View Fan</a>
+</section>
+{{/each}}
+  
 </main>
 <main>
   <section class="Contact-Me">
