@@ -2,23 +2,101 @@
 <html lang="en">
 
 <head>
-  <title>Passport Authentication</title>
+  <title>Only Fanz</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   <link href="/OnlyFanz/public/css/style.css" rel="stylesheet" />
-  
 </head>
-  <body>
-     <href="/OnlyFanz/Assets/Images/Homepage Image.png"
-  rel="stylesheet">
-<nav></nav>
-      {{{body}}}
-      
+<body>
+  <!-- {{!-- NAV BAR  --}} -->
+  <div id="total-header">
+    <header class="site-header">
+      <!-- {{!-- This is the Top Nav Banner --}} -->
+      <div class="header-banner">
+        <div class="header-banner-container">
+          <ul class="header-brand-nav">
+            <li id="OnlyPanz"> Only Panz</li>
+            <li id="OnlyHamz"> Only Hamz</li>
+            <li id="OnlyTramz"> Only Tramz</li>
+          </ul>
+          <div class="header-country-selector"></div>
+          <button class="transparent-button-country-selector" data-testid="button" type="button"><img
+              src="/OnlyFanz/Assets/Images/Icons-Land-Vista-Flags-English-Language-Flag-1.256.png"
+              alt="english lagnuage selector"></img></button>
+          <img data-testid="image" src="/OnlyFanz/Assets/Images/American Flag.png" alt="Ship to: United States"
+            title="Ship to: United States" width="21" height="14">
+          <div class="promo-banner"></div>
+          <div id="Top-promo-banner"> Premium Subscription </div>
+          <svg class="arrow-icon" aria-hidden="true" focusable="false">
+            <use href="/OnlyFanz/Assets/Images/arrow image.png"></use>
+          </svg>
+        </div>
+      </div>
+      <!-- {{!-- This is the Main Banner with the Search Bar, Logo, profile, Cart --}} -->
+      <div class="header-core">
+        <div class="core-left">
+          <div class="site-search">
+            <div id="site-search" class="site-search_FG">
+              <div class="search-overlay-visible"></div>
+              <form class="search-input">
+                <label id="site-search-label" class="search-only"></label>
+                <input class="form-control-lq" id="site-search-input" aria-label="Search" aria-autocomplete="list"
+                  aria-controls="site-search-dropdown" autocapitalize="none" autocomplete="off" maxlength="120"
+                  name="site-search-input" value="" placeholder="Search Fanz Here" role="combobox" title="Search">
+                <div class="site-search-button"> </div>
+              </form>
+              <div id="site-search-caption"></div>
+            </div>
+          </div>
+        </div>
+        <div class="header-logo-container">
+          <a class="Only-Fanz-logo">
+            <img id="Logo" src="/OnlyFanz/Assets/Images/Logo.png" alt="Only Fanz Logo" title="Only Fanz Logo"
+              width="800" height="100">
+            <div class="core-right">
+              <div id="header-profile" class="header-profile-container">
+                <div class="account-profile-container">
+                  <div class="header-account-link">
+                    <a class="profile-account-link"> Profile </a>
+                    <button class="profile-button"
+                      src="/OnlyFanz/Assets/Images/profile-icon-rounded-squares-button-vector-4526754.jpg"></button>
+                    <div class="shopping-cart">
+                      <a class="shopping-cart-link"> Shopping Cart</a>
+                      <!-- ---FUTURE NOTE TO ADD DROPDOWN HERE -->
+                      <button class="profile-button"
+                        src="/OnlyFanz/Assets/Images/profile-icon-rounded-squares-button-vector-4526754.jpg"></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="header-cart-container">
+              </div>
+            </div>
+        </div>
+      </div>
+      <nav class="primary-nav-list">
+        <a class="primary-nav-item" Desk Fanz>Desk Fanz</a>
+        <a class="primary-nav-item">Tower Fanz</a>
+        <a class="primary-nav-item"> Window Fanz</a>
+        <a class="primary-nav-item">Floor Fanz</a>
+        <a class="primary-nav-item">Box Fanz</a>
+        <a class="primary-nav-item">Ceiling Fanz</a>
+        <a class="primary-nav-item">Mounted Fanz</a>
+      </nav>
+    </header>
+
+{{{body}}}
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    </body>
+
 </html>
