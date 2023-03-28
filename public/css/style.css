@@ -1,0 +1,519 @@
+/* ------OFFICE BACKGROUND IMAGE */
+body{
+    background-image: url("/Assets/Images/Homepage\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1300px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #222;
+    }
+
+    main {
+      display: flex;
+      /* Forces elements to the next line if they don't fit */
+      flex-wrap: wrap;
+      margin-top: 2%;
+    }
+    
+  /* Mobile Screen */
+@media only screen and (max-width: 500px) {
+  .display-desktop {
+    display: none;
+  }
+
+  .display-mobile {
+    display: block;
+  }
+
+  .flex-column-mobile {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+/* ---------NAV BAR STYLING-------- */
+#total-header{
+font-weight: 400;
+font-size: 14px;
+color: #222;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.site-header{
+  max-width:100vw;
+  box-sizing: content-box;
+  background-color: #e3e0e0;
+}
+.header-banner{
+  border-bottom: 1px solid #ccc;
+}
+.header-banner-container{
+  display: flex;
+  box-sizing: border-box;
+  max-width: 1900px;
+  min-height: 40px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.header-brand-nav{
+  display: flex;
+  font-size: 20px;
+  color: #158cba;
+  justify-content: space-between;
+  padding: 10px;
+  width: 500px;
+}
+.header-country-selector{
+  margin: 0;
+  min-width: 55px;
+  min-height: 24px;
+  box-sizing: border-box;
+  position: relative;
+  display:flex;
+  align-items: center;
+}
+.transparent-button-country-selector{
+  color: #158cba;
+  text-decoration: underline;
+  font-size: 14px
+}
+img {
+border: 0;
+height: auto;
+margin-right: 40px;
+}
+.promo-banner{
+display: inline-flex;
+align-items: center;
+margin-left: auto;
+}
+ #Top-promo-banner{
+  color: #158cba;
+ margin-top: 10px;
+ font-weight: bold;
+ font-size: 20px;
+ }
+.Sub-banner{
+  align-items: center;
+}
+.arrow-icon{
+  width: 1.25em;
+  height: 1em;
+  padding-bottom: 0;
+  margin: 0 0 -.2em 0;
+}
+ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/* SECOND ROW OF NAV BAR INCLUDING SEARCH BAR (LEFT) LOGO (CENTER) AND PROFILE/CART (RIGHT) */
+.header-core{
+max-width: 1850px;
+margin: 0 auto;
+padding: 25px 32 px 0;
+min-height: auto;
+border-bottom: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+}
+/* ---LEFT SEARCH BAR IN MAIN HEADER */
+.core-left{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  box-sizing: content-box;
+}
+#site-search{
+ box-sizing: content-box;
+ padding: 0;
+}
+.search-input{
+  position: relative;
+  width: fit-content;
+  padding: .714em 1.15em .714em 0;
+}
+#site-search-input{
+  color: #010101;
+  font-size: 30px;
+  font-style: italic;
+  width: 400px;
+  height: 200px;
+  box-sizing: border-box;
+  border: #000000;
+  outline: 0;
+  background-color: #ccc;
+  box-shadow: none;
+  
+}
+#site-search-input{
+  width: 400px;
+  height: 100px;
+  background-color: #ffffff;
+  border: #000000;
+}
+
+.header-logo-container{
+  display: flex;
+  flex: center;
+  box-sizing: content-box;
+  margin-right: 250px;
+}
+
+.core-right{
+  display: flex;
+  flex: 1;
+  position: relative;
+  justify-content: space-between;
+  box-sizing: content-box;
+}
+
+.header-profile-container{
+  display: flex;
+  box-sizing: content-box;
+  width: 100px;
+}
+.language-selector-image{
+  height:40px;
+
+}
+.header-account-link{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 120px;
+}
+.profile-account-link{
+  font-size: 30px;
+  align-items: center;
+  padding: 25px;
+  font-weight: bold;
+}
+.profile-button{
+  width: 50px;
+  height: 50px;
+}
+.shopping-cart{
+  display: flex;
+  align-items: center;
+}
+.shopping-cart-link{
+  font-size: 25px;
+  padding: 50px;
+  font-weight: bold;
+}
+
+.primary-nav-list{
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+}
+.primary-nav-item{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  border-radius: 10px;
+  border: #000000;
+  margin-left: 30px;
+  align-items: center;
+}
+
+/* ---- LOGIN STYLING------ */
+.modal-content, .card-body {
+  opacity: .9;
+  padding:40px;
+  border-radius: 40px;
+  border: #000000;
+  height: 70vh;
+  width: 100%;
+  margin-top: 100px;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8,  #dd00f3, #dd00f3);
+background-size: 1000% 1000%;
+
+-webkit-animation: rainbow 30s ease infinite;
+-z-animation: rainbow 30s ease infinite;
+-o-animation: rainbow 30s ease infinite;
+  animation: rainbow 30s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+   
+}
+.user-img img{
+  height: 150px;
+  width: 150px;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+.form-group input{
+  height: 42px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
+  padding-left: 54px;
+  font-family: 'Sen', sans-serif;;
+}
+.btn-default{
+  font-size: 19px;
+  border-radius: 5px;
+  width: 150px;
+  border: 1px solid #47504e;
+}
+.btn-default:hover{
+  background-color: #47504e;
+  border: 1px solid #ebedee;
+  color: #ebedee;
+}
+.link{
+  float: right;
+}
+.navbar-brand{
+   font-size: medium!important;
+}
+
+h2{
+  font-family: 'Kaushan Script', cursive;
+}
+h3{
+  font-family:'Sen', sans-serif;
+}
+textarea{
+  font-family: 'Sen', sans-serif;
+  font-size: larger !important;
+}
+
+/* ---- HOME PAGE STYLING */
+
+.card {
+  flex: 1 0 0;
+  padding: 10px;
+  border-style:ridge;
+  border-width: 10;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  align-items: center;
+  margin-left: 20px;
+  text-align: center;
+  
+  
+
+}
+.card header {
+  padding: 10px;
+  background: #0d7be2;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2px;
+  font-weight: bold
+
+}
+
+.card img {
+  width: 100%;
+  min-width: 400px;
+}
+
+.card:hover{
+  background-color: rgb(150, 143, 143);
+}
+
+.About-me{
+  flex: 1 0 0;
+  padding: 10px;
+  width: 40px;
+  text-align: left;
+  border-style: ridge;
+}
+
+.About-me{
+  flex: 1 0 0;
+  padding: 10px;
+  width: 40px;
+  text-align: left;
+  border-style: ridge;
+}
+.About-me img{
+  width: 20%;
+  min-width: 200px;
+  margin-left: 800;
+}
+
+.Title.Logo.front{
+  margin-bottom: 200px;
+}
+
+.Contact-me{
+  flex: 1 0 0;
+  padding: 10px;
+  width: 40px;
+  margin-top: 0;
+  margin-bottom: 200px;
+}
+.Contact-me img{
+  width: 20%;
+  min-width: 200px;
+  margin-left: 800;
+}
+
+.Title.Logo.front{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  color: aquamarine;
+}
+
+.home-image{
+  align-content: center;
+  margin-bottom: 200px;
+}
+
+.carousel {
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transition: opacity 0.6s ease-in-out;
+  width: 100%;
+}
+
+.carousel-active:checked + .carousel-item {
+  opacity: 1;
+  pointer-events: auto;
+  position: static;
+}
+
+.carousel-item img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.carousel-controls {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-control {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 28px;
+  height: 100%;
+  line-height: 40px;
+  text-align: center;
+  transition: background 0.1s ease-in-out;
+  width: 50%;
+  z-index: 2;
+}
+
+.carousel-control:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-control.prev {
+  float: left;
+}
+
+.carousel-control.next {
+  float: right;
+}
+
+.carousel-caption {
+  bottom: 15%;
+  font-size: 120%;
+  left: 20%;
+  opacity: 0;
+  right: 20%;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.1s ease-out;
+  z-index: 2;
+}
+
+.carousel-active:checked + .carousel-item .carousel-caption {
+  transition: opacity 0.6s ease-in;
+  opacity: 1;
+}
+
+.carousel-indicators {
+  bottom: 5%;
+  left: 5%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  right: 5%;
+  text-align: center;
+  z-index: 2;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+}
+
+.carousel-indicator {
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  font-size: 28px;
+  line-height: 1;
+  padding: 5px 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: background 0.1s ease-in-out;
+}
+
+.carousel-indicator:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* If you`re needing more than 3 banners, maybe you might be using another way to represent your info... ;-) */
+#carousel-1:checked ~ .carousel-indicators .carousel-indicator[for="carousel-1"],
+#carousel-2:checked ~ .carousel-indicators .carousel-indicator[for="carousel-2"],
+#carousel-3:checked ~ .carousel-indicators .carousel-indicator[for="carousel-3"] {
+  color: #007f7f;
+}
+
+@media (min-width: 768px) {
+  .carousel-indicators {
+    background: transparent;
+  }
+  .carousel-control {
+    width: 5%;
+  }
+  .carousel-controls,
+  .carousel-caption,
+  .carousel-indicators {
+    position: absolute;
+  }
+}
