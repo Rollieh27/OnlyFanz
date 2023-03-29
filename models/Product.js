@@ -13,15 +13,14 @@ product.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    imagePath: {
+    imagepath: {
       type: DataTypes.STRING,
     },
     cost: {
-      type: DataTypes.DATE,
+      type: DataTypes.FLOAT,
       allowNull: false,
-      defaultValue: DataTypes.NOW,
     },
-    URL: {
+    url: {
       type: DataTypes.FLOAT,
       allowNull: false,
     },

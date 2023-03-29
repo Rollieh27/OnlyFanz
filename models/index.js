@@ -1,5 +1,8 @@
 const User = require('./User');
-// const Project = require('./Project');
+const Product = require('./Product');
+
+module.exports = { User, Product };
+
 
 // User.hasMany(Project, {
 //   foreignKey: 'user_id',
@@ -10,19 +13,17 @@ const User = require('./User');
 //   foreignKey: 'user_id'
 // });
 
-module.exports = { User };
-
 ///////////////////////////////////////////
 
 // 'use strict';
 
-const fs = require('fs');
-const path = require('path');
-const Sequelize = require('sequelize');
-const basename = path.basename(__filename);
-const env = process.env.NODE_ENV || 'development';
-const config = require(__dirname + '/../config/config.json')[env];
-const db = {};
+// const fs = require('fs');
+// const path = require('path');
+// const Sequelize = require('sequelize');
+// const basename = path.basename(__filename);
+// const env = process.env.NODE_ENV || 'development';
+// // const config = require(__dirname + '/../config/config.json')[env];
+// const db = {};
 
 // let sequelize;
 // if (config.use_env_variable) {
