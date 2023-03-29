@@ -58,9 +58,6 @@ User.init(
 module.exports = User;
 /////////////////////////////////////////
 
-
-// const bcrypt = require("bcryptjs");
-
 // module.exports = function(sequelize, DataTypes) {
 //   const User = sequelize.define("User", {
 //     name: {
@@ -96,3 +93,5 @@ module.exports = User;
 //   });
 //   return User;
 // };
+
+// module.exports = User;
