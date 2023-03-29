@@ -13,24 +13,17 @@ product.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
+    imagePath: {
       type: DataTypes.STRING,
     },
-    date_created: {
+    cost: {
       type: DataTypes.DATE,
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    needed_funding: {
+    URL: {
       type: DataTypes.FLOAT,
       allowNull: false,
-    },
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'user',
-        key: 'id',
-      },
     },
   },
   {
@@ -38,8 +31,8 @@ product.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'project',
+    modelName: 'product',
   }
 );
 
-module.exports = Project;
+module.exports = product;
