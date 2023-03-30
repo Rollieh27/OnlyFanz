@@ -14,6 +14,8 @@ router.post('/', async (req, res) => {
   }
 });
 
+module.exports = router;
+
 // router.delete('/:id', async (req, res) => {
 //   try {
 //     const projectData = await Project.destroy({
