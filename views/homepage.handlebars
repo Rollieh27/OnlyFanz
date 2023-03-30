@@ -41,6 +41,7 @@
   </ol>
 </div>
 </main>
+
 <main>
   <section class="card">
     <header>Project 1</header>
@@ -54,17 +55,11 @@
  {{#each products as |product| }}
 <section class="card">
   <header>{{product.name}}</header>
-  <img src="/OnlyFanz/public/Assets/Images/{{product.imagePath}}" alt="tablet" />
+  <img src="/Assets/Images/{{product.imagePath}}" alt="fans image" />
   <p>{{product.description}}</p>
   <p>{{product.cost}}</p>
   <a href="{{product.url}}">View Fan</a>
 </section>
 {{/each}}
   
-</main>
-<main>
-  <section class="Contact-Me">
-    <header> Contact </header>
-    <img src="./assets/images/Under Construction.png">
-  </section>
 </main>
