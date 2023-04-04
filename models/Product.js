@@ -10,7 +10,7 @@ Product.init(
       allowNull: false,
     },
     description: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     imagepath: {
@@ -21,8 +21,15 @@ Product.init(
       allowNull: false,
     },
     url: {
-      type: DataTypes.FLOAT,
+      type: DataTypes.TEXT,
       allowNull: false,
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id',
+      },
     },
   },
   {

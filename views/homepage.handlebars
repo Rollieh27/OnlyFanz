@@ -1,3 +1,4 @@
+{{log productData}}
 <main>
   <div id="carousel" class="carousel">
   <input class="carousel-active" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden checked="checked">
@@ -52,10 +53,11 @@
   </section> --}}
 
 {{!-- Handlebars to loop through the product database --}}
- {{#each products as |product| }}
+
+ {{#each productData as |product| }}
 <section class="card">
   <header>{{product.name}}</header>
-  <img src="/Assets/Images/{{product.imagePath}}" alt="fans image" />
+  <img src="{{product.imagepath}}" alt="fans image" />
   <p>{{product.description}}</p>
   <p>{{product.cost}}</p>
   <a href="{{product.url}}">View Fan</a>
