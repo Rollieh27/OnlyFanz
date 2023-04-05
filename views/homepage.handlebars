@@ -1,3 +1,4 @@
+{{log productData}}
 <main>
   <div id="carousel" class="carousel">
   <input class="carousel-active" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden checked="checked">
@@ -15,7 +16,7 @@
       <label for="carousel-1" class="carousel-control prev" title="Prev">«</label>
       <label for="carousel-3" class="carousel-control next" title="Next">»</label>
     </div>
-    <img src="http://via.placeholder.com/1200x300/777/000/" alt="Blank image">
+    <img src="/Assets/Images/honeywell-floor-fan.jpg" alt="Blank image">
    
   </div>
 
@@ -25,7 +26,7 @@
       <label for="carousel-2" class="carousel-control prev" title="Prev">«</label>
       <label for="carousel-1" class="carousel-control next" title="Next">»</label>
     </div>
-    <img src="http://via.placeholder.com/1200x300/ccc/077/" alt="Third slide">
+    <img src="/Assets/Images/blueair-box-fan.jpg" alt="Third slide">
   </div>
 
   <ol class="carousel-indicators" aria-label="Carousel navigation" aria-hidden="true">
@@ -43,19 +44,20 @@
 </main>
 
 <main>
-  <section class="card">
-    <header>Project 1</header>
+  {{!-- <section class="card">
+    <header>Fan Description</header>
       <img src="/Assets/Images/lasko-floor-fan.jpg" alt="Lasko Fan" />
        <button class="profile-button" data-testid="button" type="button"><img
                      src=""
-                     alt="english lagnuage selector" class="add-to-cart-button"></img></button>
-  </section>
+                     alt="Fan image" class="add-to-cart-button"></img></button>
+  </section> --}}
 
 {{!-- Handlebars to loop through the product database --}}
- {{#each products as |product| }}
+
+ {{#each productData as |product| }}
 <section class="card">
   <header>{{product.name}}</header>
-  <img src="/Assets/Images/{{product.imagePath}}" alt="fans image" />
+  <img src="{{product.imagepath}}" alt="fans image" />
   <p>{{product.description}}</p>
   <p>{{product.cost}}</p>
   <a href="{{product.url}}">View Fan</a>

@@ -1,16 +1,16 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class product extends Model {}
+class Product extends Model {}
 
-product.init(
+Product.init(
   {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
     description: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     imagepath: {
@@ -21,8 +21,15 @@ product.init(
       allowNull: false,
     },
     url: {
-      type: DataTypes.FLOAT,
+      type: DataTypes.TEXT,
       allowNull: false,
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id',
+      },
     },
   },
   {
@@ -34,4 +41,4 @@ product.init(
   }
 );
 
-module.exports = product;
+module.exports = Product;
