@@ -31,6 +31,10 @@ Product.init(
         key: 'id',
       },
     },
+    category: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      }
   },
   {
     sequelize,
