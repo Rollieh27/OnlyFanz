@@ -3,7 +3,7 @@ const { Product, User } = require('../models');
 // Import the custom middleware
 const withAuth = require('../Utils/auth');
 
-router.get('/', async (req, res) => {
+router.get('/', withAuth,async (req, res) => {
   try {
     const products = await Product.findAll()
     // This sucker is what we were missing---//
@@ -32,15 +32,16 @@ router.get('/login', (req, res) => {
 // ---- Render Specific Category that are selected on the Nav bar by clicking --//
 router.get('/fan/:category', async (req, res) => {
   try {
-    const productData = await Product.findAll({
+    const productsCall = await Product.findAll({
       where: {
         category: req.params.category
       }
     });
-    const productCategory = productData.map((category) => category.get({ plain: true }));
+    const productData = productsCall.map((category) => category.get({ plain: true }));
+    
     res.render('homepage', {
-      productCategory,
-      logged_in: req.session.category,
+      productData,
+      logged_in: req.session.logged_in,
   });
   } catch (err) {
     res.status(500).json(err);
