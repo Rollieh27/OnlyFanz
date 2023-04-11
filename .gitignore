@@ -1,3 +1,5 @@
-.env
 node_modules
+.env
 package-lock.json
+OnlyFanzConnection.session.sql
+.vscode/settings.json
