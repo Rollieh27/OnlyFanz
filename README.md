@@ -2,7 +2,7 @@
 
 # Only Fanz: By Fans of Fans #
 
-Deployed Link: TBD
+Deployed Link: [Click Here](https://only-fanz.herokuapp.com/)
 
 ## Table of contents
 * [Introduction](#introduction)
@@ -15,34 +15,52 @@ Deployed Link: TBD
 * [Licenses](#licenses)
 
 ## Introduction ##
-The Largest Fanbase on the Internet
+Introducing Only Fanz - home to the largest fanbase online! Our fans are designed to provide a powerful and customizable breeze to keep you cool and comfortable at all times. Here are some key features that make our fans stand out:
+* Desktop Fans: Compact and lightweight design for easy placement on your desk, multiple speed settings to customize your cooling experience, and quiet operation for minimal disturbance.
+* Portable Fans: Rechargeable battery options for cordless convenience, compact and lightweight design for easy portability, multiple speed settings, and quiet operation.
+* Tower Fans: Slim and space-saving design, multiple speed settings and oscillation for wider coverage, quiet operation, and easy-to-use controls.<br>
+
+With the largest selection of fans online, you're sure to find the perfect match for your needs. No matter what your cooling needs are, we have the perfect fan for you. Don't suffer through another hot day - upgrade your space with our reliable and high-quality fans today!
+
 
 ## Screenshots ##
 TBD
 
 ## Technologies ##
-HTML, CSS, Javascript, Sequelize, MYSQL, Heroku, Handlebars.js, VSCode, 
+HTML, CSS, Javascript, Sequelize, MYSQL, Heroku, Handlebars.js, VSCode, Bootstrap, Noun Project
 
 ## Challenges ##
-TBD
+* Connecting to Heroku
+* Understanding MVC properly
+* Time Management
+* Getting sequelize to work
 
 ## Future Features ##
-TBD
+* Extend our platform to our other Brands! (OnlyPanz, OnlyHamz, OnlyTramz)
+* Provide an enhanced service and exclusive content with our premium subscriber base
+* Early Bird Subscriber Special
+* Pre-Order Pricing
+* QuadPay & Affirm payment options
+* Affiliate/Influencer Program
+* Only Fanz Pro Credit Card (Excellent Perks)
+* Wind-Up™: Trade-In/Refurbishment program
+* Spinner™: Recycling Program
+
 
 ## Status ##
-TBD
+We're live, baby !
 
 ## Collaborators ##
- @Rollieh27
- @franksabogal04
- @Cmiller1517
- @izzyrkive
+ @Rollieh27<br>
+ @franksabogal04<br>
+ @Cmiller1517<br>
+ @izzyrkive<br>
  @OxideActual
 
 ## Licenses ##
 MIT License
 
-Copyright (c) [2023] [Frank, Sergio, Izzy, Rollie, Chad]
+Copyright (c) 2023 [Frank, Sergio, Izzy, Rollie, Chad]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
