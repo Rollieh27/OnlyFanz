@@ -1,27 +1,17 @@
 [
   {
-    "name": "Isabel",
-    "email": "isabel.perez@gmail.com",
-    "password": "Fanlover1999!"
+    "name": "Sal",
+    "email": "sal@hotmail.com",
+    "password": "password12345"
   },
   {
-    "name": "Chad",
-    "email": "chadmiller@yahoo.com",
-    "password": "Ireallylovefans123!@!"
+    "name": "Lernantino",
+    "email": "lernantino@gmail.com",
+    "password": "password12345"
   },
   {
-      "name": "Rollie",
-      "email": "rolandoherrera@gmail.com",
-      "password": "IHeartFans12345!"
-  },
-  {
-      "name": "Frank",
-      "email": "frank.sabogal@gmail.com",
-      "password": "Bigfanoffans101!"
-  },
-  {
-    "name": "Sergio",
-    "email": "sergiobelalcazar@yahoo.com",
-    "password": "FansFansFans2023!"
+    "name": "Amiko",
+    "email": "amiko2k20@aol.com",
+    "password": "password12345"
   }
 ]

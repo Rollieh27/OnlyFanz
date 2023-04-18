@@ -1,67 +1,24 @@
-{{log productData}}
-<main>
-  <div id="carousel" class="carousel">
-  <input class="carousel-active" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden checked="checked">
-  <div class="carousel-item">
-    <div class="carousel-controls" aria-hidden="true">
-      <label for="carousel-3" class="carousel-control prev" title="Prev">«</label>
-      <label for="carousel-2" class="carousel-control next" title="Next">»</label>
-    </div>
-    <img src="/Assets/Images/lasko-tower-fan.jpg" alt="First slide">
+<!-- Loop over each object in the projects array -->
+{{#each projects as |project| }}
+<div class="row mb-4 project">
+  <div class="col-md-5">
+    <h2>
+      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+      {{{get_emoji}}}
+      <a href="/project/{{project.id}}">{{project.name}}</a>
+    </h2>
+    <p>
+      <span for="img" aria-label="money">💲</span>
+      <!-- Pass needed_funding value to the helper function -->
+      <span class="dollar-amount">{{format_amount project.needed_funding}}</span>
+      needed!
+    </p>
+    <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
   </div>
-
-  <input class="carousel-active" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden>
-  <div class="carousel-item">
-    <div class="carousel-controls" aria-hidden="true">
-      <label for="carousel-1" class="carousel-control prev" title="Prev">«</label>
-      <label for="carousel-3" class="carousel-control next" title="Next">»</label>
-    </div>
-    <img src="/Assets/Images/honeywell-floor-fan.jpg" alt="Blank image">
-   
+  <div class="col-md-7">
+    <p>
+      {{project.description}}
+    </p>
   </div>
-
-  <input class="carousel-active" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden>
-  <div class="carousel-item">
-    <div class="carousel-controls" aria-hidden="true">
-      <label for="carousel-2" class="carousel-control prev" title="Prev">«</label>
-      <label for="carousel-1" class="carousel-control next" title="Next">»</label>
-    </div>
-    <img src="/Assets/Images/blueair-box-fan.jpg" alt="Third slide">
-  </div>
-
-  <ol class="carousel-indicators" aria-label="Carousel navigation" aria-hidden="true">
-    <li>
-      <label for="carousel-1" class="carousel-indicator" title="Jump to carousel item #1">●</label>
-    </li>
-    <li>
-      <label for="carousel-2" class="carousel-indicator" title="Jump to carousel item #2">●</label>
-    </li>
-    <li>
-      <label for="carousel-3" class="carousel-indicator" title="Jump to carousel item #3">●</label>
-    </li>
-  </ol>
 </div>
-</main>
-
-<main>
-  {{!-- <section class="card">
-    <header>Fan Description</header>
-      <img src="/Assets/Images/lasko-floor-fan.jpg" alt="Lasko Fan" />
-       <button class="profile-button" data-testid="button" type="button"><img
-                     src=""
-                     alt="Fan image" class="add-to-cart-button"></img></button>
-  </section> --}}
-
-{{!-- Handlebars to loop through the product database --}}
-
- {{#each productData as |product| }}
-<section class="card">
-  <header>{{product.name}}</header>
-  <img src="{{product.imagepath}}" alt="fans image" />
-  <p>{{product.description}}</p>
-  <p>{{product.cost}}</p>
-  <a href="{{product.url}}">View Fan</a>
-</section>
 {{/each}}
-  
-</main>
