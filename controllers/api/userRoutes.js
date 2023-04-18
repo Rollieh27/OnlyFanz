@@ -17,7 +17,6 @@ const { User } = require('../../models');
 // });
 
 router.post('/login', async (req, res) => {
-  console.log("HIT LOGIN ROUTE")
   try {
     const userData = await User.findOne({ where: { email: req.body.email } });
 
