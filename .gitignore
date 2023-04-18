@@ -1,10 +1,5 @@
 node_modules
 .env
 package-lock.json
-<<<<<<< HEAD
-.vscode/settings.json
-OnlyFanzConnection.session.sql
-=======
 OnlyFanzConnection.session.sql
 .vscode/settings.json
->>>>>>> parent of fd559ce (Revert "Merge pull request #12 from Rollieh27/Rollies-branch")
